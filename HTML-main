@@ -1,39 +1,50 @@
 <!doctype html>
 <html lang = en>
   <head>
+    <link href="./main.css" type="text/css" rel="stylesheet">
     <meta charset = utf-8>
     <title> Chris Frank Portfolio </title>
   </head>
   
   <body>
-    <h1> Chris Frank </h1>
-    <h2> Software Engineering Major </h2>
+  
+  <div class="container">
+    <header>
+      <h1>Chris Frank </h1>
+      <h2>Software Engineering Major</h2>
+    </header>
     
-    <img id="Main-Picture" alt="Me in Istanbul during Summer 2018." src="Profile-pic-Istanbul.jpg"/ width="300" height="300">
+    <section class="picture">
+      <img src="./Desktop/Portfolio-Website/Profile-pic-Istanbul.jpg/"  alt="Me in Istanbul during Summer 2018.">
+    </section>
     
-    <br></br>
+    <section class="body2">
+      <h2>About Me</h2>
+      <p> My Name is Chris Frank.  I am a freshman at FGCU.  My major is Software Engineering.  Before coming to FGCU, I spent 4 years in the Marine Corps and travelled the world.</p>
+      <p> My goal at FGCU is to learn which type of programming I would be best at.  One day, it is my goal to work for Space X and be a part of the team that sends the first humans to Mars. </p>
+    </section>
     
-    <h2 id="about-me"> About Me: </h2>
-      <p class="about-me"> My Name is Chris Frank.  I am a freshman at FGCU.  My major is Software Engineering.  Before coming to FGCU, I spent 4 years in the Marine Corps and travelled the world.</p>
-      <p class="about-me"> My goal at FGCU is to learn which type of programming I would be best at.  One day, it is my goal to work for Space X and be a part of the team that sends the first humans to Mars. </p>
-     
-    <h3 id="education"> Computer-oriented education as of now: </h3>
-      <uo class="education">
-        <li class="education"> Introduction to computer science </li>
-        <li class="education"> Codecademy: HTML/CSS </li>
-      </uo>
-      
-    <h3 class="codesites"> My Github/Codecademy </h3>
-      <p class="codesites"> <a href="https://github.com/cfrank95" target="_blank"> My Github </a></p>
-      <p class="codesites"> <a href="https://www.codecademy.com/cfrank95" target="_blank> My Codecademy </a></p>
-        
-    <h3 id="other-links"> Other links: <h3>
-      <uo class="other-links">
-        <li class="other-links"> <a href="https://www.facebook.com/CFrank95" target="_blank"> Facebook </a> </li>
-        <li class="other-links"> <a href="ttps://www.instagram.com/frischrank/" target="_blank"> Instagram </a></li>
+    <section class="education">
+      <h3>Computer-Oriented education as of now:</h3>
+        <ul class="education">
+          <li> Introduction to Computer Science </li>
+          <li> Codecademy: HTML/CSS </li>
+        </ul>
+    </section>
     
+    <section class="links">
+      <h3> Links </h3>
+        <ul class="links">
+          <li> <a href="https://github.com/cfrank95" target="_blank"> My Github </a> </li>
+          <li> <a href="https://www.codecademy.com/cfrank95" target="_blank"> My Codecademy </a> </li>
+          <li> <a href="https://www.facebook.com/CFrank95" target="_blank"> Facebook </a>  </li>
+          <li> <a href="ttps://www.instagram.com/frischrank/" target="_blank"> Instagram </a> </li>   
+    </section>
     
-    
-  </body>
-
+    <section class="more-pics">
+      <img src="./Desktop/Portfolio-Website/Background-Istanbul.jpg/" alt="Bosphorus River in Istanbul"
+    </section>
+  
+  </div> 
+  
 </html>
