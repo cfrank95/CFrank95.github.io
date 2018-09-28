@@ -1,0 +1,44 @@
+body {
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 
+  }
+
+.heading{
+  text-align: center;
+}
+
+.heading h1, h2{
+  background: rgb(215,215,215);
+  margin: 0 auto;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+  clear: none;
+  }
+
+
+div [class*="about-me"]{
+  background: rgb(215,215,215);
+  margin: 0px 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.links{
+  grid-area: links;
+  background-color: dodgerblue;
+}
+
+.more-pics{
+  grid-area: more-pics;
+  width: minmax(400px, 600px);
+  height: 300px;
+  background-color: dodgerblue;
+  text-align: center;
+  
+  }
