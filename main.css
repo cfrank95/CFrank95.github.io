@@ -1,35 +1,52 @@
-body {
-
+body{
+  background-color: rgb(215,215,215);
 }
 
-.grid{
+.container {
   display: grid;
-  grid-template-columns: 
-  }
-
-.heading{
-  text-align: center;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 2px;
+  grid-template-areas: "header header"
+      									"picture		picture"
+    										"body2		body2"
+    										"education	links"
+                        "more-pics more-pics";
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 120px 200px 300px 200px 300px;
 }
 
-.heading h1, h2{
-  background: rgb(215,215,215);
-  margin: 0 auto;
-  width: 200px;
-  padding: 20px;
+header {
+  background-color: dodgerblue;
+  grid-area: header;
   text-align: center;
   z-index: 1;
-  clear: none;
-  }
-
-
-div [class*="about-me"]{
-  background: rgb(215,215,215);
-  margin: 0px 200px;
-  padding: 20px;
-  text-align: center;
 }
 
-.links{
+
+.picture {
+  background-color: dodgerblue;
+  grid-area: picture;
+  text-align: center;
+  width: minmax(200px,300px);
+  height: minmax(200px, 300px);
+  
+}
+
+.body2 {
+  background-color: dodgerblue;
+  grid-area: body2;
+  text-align: center;
+  padding: 100px;
+}
+
+.education {
+  grid-area: education;
+  background-color: dodgerblue;
+}
+
+.links {
   grid-area: links;
   background-color: dodgerblue;
 }
@@ -40,5 +57,4 @@ div [class*="about-me"]{
   height: 300px;
   background-color: dodgerblue;
   text-align: center;
-  
-  }
+ }
