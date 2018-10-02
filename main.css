@@ -14,7 +14,7 @@ body{
                        "education links"
                        "more-pics more-pics";
   grid-template-columns: 450px 450px;
-  grid-template-rows: 120px 200px 300px 200px 300px;
+  grid-template-rows: 120px 300px 300px 200px 300px;
 }
 
 header {
@@ -24,11 +24,12 @@ header {
   z-index: 1;
 }
 
-
 .picture {
   background-color: dodgerblue;
   grid-area: picture;
   text-align: center;
+  width: 300px;
+  height: 300px;
 }
 
 .body2 {
