@@ -9,9 +9,9 @@ body{
   margin: auto;
   grid-gap: 2px;
   grid-template-areas: "header header"
-                       "picture		picture"
-                       "body2		body2"
-                       "education	links"
+                       "picture picture"
+                       "body2 body2"
+                       "education links"
                        "more-pics more-pics";
   grid-template-columns: 450px 450px;
   grid-template-rows: 120px 200px 300px 200px 300px;
