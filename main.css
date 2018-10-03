@@ -21,13 +21,13 @@ body{
   grid-template-columns: 450px 450px;
   grid-template-rows: 120px 310px 300px 200px 300px;
 }
-header {
+.head {
   background-color: clear;
   grid-area: header;
   text-align: center;
   z-index: 1;
 }
-.picture {
+#profile {
   background-color: clear;
   grid-area: picture;
   text-align: center;
