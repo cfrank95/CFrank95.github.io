@@ -22,35 +22,32 @@ body{
   grid-template-rows: 120px 310px 300px 200px 300px;
 }
 .heading {
-  background-color: clear;
+  background-color: transparent;
   grid-area: header;
   text-align: center;
   z-index: 1;
 }
 #profile {
-  background-color: clear;
+  background-color: transparent;
   grid-area: picture;
   text-align: center;
-  border-image: 300px 300px;
 }
 .body2 {
-  background-color: clear;
+  background-color: transparent;
   grid-area: body2;
   text-align: center;
   padding: 100px;
 }
 .education {
   grid-area: education;
-  background-color: clear;
+  background-color: transparent;
 }
 .links {
   grid-area: links;
-  background-color: clear;
+  background-color: transparent;
 }
 .more-pics{
   grid-area: more-pics;
-  width: 500px;
-  height: 300px;
-  background-color: clear;
+  background-color: transparent;
   text-align: center;
  }
