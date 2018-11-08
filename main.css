@@ -29,7 +29,7 @@ body{
 }
 #profile {
   background-color: transparent;
-  grid-area: picture picture;
+  grid-area: picture;
   text-align: center;
 }
 .body2 {
