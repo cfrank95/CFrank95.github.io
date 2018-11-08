@@ -14,7 +14,7 @@ body{
   margin: auto;
   grid-gap: 2px;
   grid-template-areas: "header header"
-                       "picture"
+                       "picture picture"
                        "body2 body2"
                        "education links"
                        "more-pics more-pics";
@@ -29,7 +29,7 @@ body{
 }
 #profile {
   background-color: transparent;
-  grid-area: picture;
+  grid-area: picture picture;
   text-align: center;
 }
 .body2 {
