@@ -1,9 +1,7 @@
 var xPositions = [10];
 var yPositions = [0];
-
 var x1Positions = [300];
 var y1Positions = [-150];
-
 var up = 400;
 var away = 200;
 var difference = 280;
@@ -11,8 +9,7 @@ var difference = 280;
 draw = function() {
     background(204, 247, 255);
     fill(0, 120, 36);
-    rect(-10, 300, 420, 100);
-    
+    rect(-10, 300, 420, 100);  
     for (var i = 0; i < xPositions.length; i++) {
         noStroke();
         fill(0, 102, 255);
@@ -34,9 +31,6 @@ draw = function() {
                 }if(y1Positions[j] > random(300,390)){
                     y1Positions[j] = -100;
             }   }
-    
-    
-
     fill(75, 75, 45);
     arc(away, difference, 100,50, 0,180);
     arc(away + 25, difference, 50,50,-30, 0);

@@ -2,8 +2,9 @@
 <html lang = en>
   <head>
     <link href="./main.css" type="text/css" rel="stylesheet">
-    <meta charset = utf-8>
-    <title> Chris Frank Portfolio </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Frank Portfolio</title>
   </head>
   
   <body background = "Background-Istanbul.jpg"  alt="Over the Bosphorus Straight in Instanbul Turkey">
@@ -36,7 +37,7 @@
         <h1>Bodrum, Turkey</h1>
         <p>While I was in Turkey, I had the opporitunity to visit Bodrum.  Bodrum shares the same waters as Greece, a common tourist attraction.  The hidden gem that is Bodrum is not only beautiful, but affordable.  There are many great places throughout the country, all with their own unique qualities.</p>
       </section>
-      <img id="DinnerPic" src="IstanbulDinner.jpeg" alt="Bugrahan(AKA Barrack), friend and myself enjoying dinner" height="300px" width="300px">
+      <img id="DinnerPic" src="IstanbulDinner.jpeg" alt="Bugrahan(AKA Barack), friend and myself enjoying dinner" height="300px" width="300px">
         <section class="BusinessTurk">
         <h2>Why Turkey?</h2>
             <p>Like I've said, I have had the opporitunity to travel all across Europe, spent over a year in Romania alone.  Why am I so stuck on Turkey?  Well, I was travelling with a mutual business partner of Barrack's to go visit his shop in Istanbul, the capital and heart of Turkey.  As soon as I landed, the history behind every wall was apparent, and the hospitality was beyond compare.  The people I met in Turkey are more than just business partners, they have become family to me.  Now, during the summers I travel to Istanbul to work with Barrack selling exotic, handmade jewelry, handbags, and carpets.  This specific dinner took place towards the end of my last trip, we were serenaded with violins and other traditional instrument.  Video seen on <a href="more.html">More Page.</a></p>
@@ -50,18 +51,21 @@
           <p> My goal at FGCU is to learn as much as possible pertaining to programming.  My specific area of interest is artificial intelligence.  I have been interested in that field since I was a kid programming on a game called Roblox.  One day I would love to be on the SpaceX team that sends the first humans to Mars. </p>
       </section>
       
-      <canvas id="canvas2" width="250" height="300"
+      <img id="paintingPic" src="ismailAcar.jpg" alt="Contemporary painting by Turkish painter Ismail Acar." height="125px" width="100px">
+      
+      <canvas id="canvas2" width="250" height="296"
         style="border:1px solid #d3d3d3;">
-        Your browser does not support the HTML5 canvas tag.</canvas>
+        This was supposed to be a painting.</canvas>
         <p id="paintButton"><button onclick="canvas2()">Painting</button></p>
       <script>
-        function canvas() {
+        function canvas2() {
             var c = document.getElementById("canvas2");
             var ctx = c.getContext("2d");
-            var img = document.getElementById("ismailAcar.jpg");
-            ctx.drawImage(img,10,10);
+            var img = document.getElementById("paintingPic");
+            ctx.drawImage(img,-5,-3);
         }
       </script>
+      <p class="paintInfo">Contemporary Turkish painting by Ismail Acar.</p>
       <svg id=turkFlag xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="294.5 796.5 300 200"
          enable-background="new 294.5 796.5 300 200" xml:space="preserve">

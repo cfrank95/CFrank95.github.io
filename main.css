@@ -1,16 +1,20 @@
 html{
 }
 body{
-  background-image:url("Background-Istanbul.jpg")
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.back2{
+    image-orientation: center;
+}
+  
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     position: fixed;
+    z-index: 1;
 }
 .navbar a {
     display: block;
@@ -46,7 +50,7 @@ li a:hover:not(.active){
 }
 .HomeVideoAbout{
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     right: 10%;
     text-align: center;
@@ -78,15 +82,31 @@ li a:hover:not(.active){
   background-color: blanchedalmond;
   background-size: auto;
   opacity: 0.6;
-  top: 75%;
+  top: 65%;
   left: 10%;
   right: 55%
+}
+#paintingPic{
+    position: absolute;
+    right: 65%;
+    top:120%;
+    z-index: -1;
 }
 #canvas2{
     position: absolute;
     right: 65%;
     top: 120%;
+    background-color: rgb(100,100,100);
     z-index: 2;
+}
+.paintInfo{
+    position: absolute;
+    right: 65%;
+    top:155%;
+    left: 20%;
+    background-color: rgb(100,100,100);
+    color: ghostwhite;
+    z-index: 1;
 }
 #paintButton{
     position: absolute;
@@ -124,10 +144,14 @@ li a:hover:not(.active){
     right: 15%;
     bottom: 40%;
 }
-#rainbutton{
+.processingBS{
+    align-content: center;
+}
+#makeItRain{
     position: absolute;
-    right: 34%;
-    top: 10%;
+    right: 20%;
+    top: 20%;
+    z-index: 4;
 }
 .links {
   background-color: transparent;
@@ -137,8 +161,134 @@ li a:hover:not(.active){
   z-index: -1;
   
 }
-.more-pics{
-  background-color: transparent;
-  text-align: center;
-    padding: 2ex;
- }
+.bodrumSong{
+    position: fixed;
+    right: 10%;
+    bottom: 95%;
+    z-index: 2;
+    opacity: 0.4;
+}
+.pic1{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    
+}
+.pix1{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 10%;
+    left: 45%;
+    right: 40%;
+}
+.pic2{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.pix2{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 10%;
+    left: 92%;
+    right: -15%;
+}
+.pic3{
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    
+}
+.pix3{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 55%;
+    left: 45%;
+    right: 40%;
+}
+.pic4{
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    
+}
+.pix4{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 55%;
+    left: 92%;
+    right: -15%;
+}
+.pic5{
+    position: absolute;
+    left: 20%;
+    top: 100%;
+    
+}
+.pix5{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 100%;
+    left: 45%;
+    right: 40%;
+}
+.pic6{
+    position: absolute;
+    right: 10%;
+    top: 100%;
+    
+}
+.pix6{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 100%;
+    left: 92%;
+    right: -15%;
+}
+.bodrumSnap1{
+    position: absolute;
+    right: 10%;
+    top: 220%;
+    
+}
+.bodrumSnap2{
+    position: absolute;
+    left: 20%;
+    top: 145%;
+    
+    
+}
+.bodrumSnap3{
+    position: absolute;
+    right: 10%;
+    top: 145%;
+    
+}
+.bodrumSnap4{
+    position: absolute;
+    left: 20%;
+    top: 185%;
+    
+}
+.bodrumSnap5{
+    position: absolute;
+    right: 10%;
+    top: 185%;
+    
+}
+.bodrumSnap6{
+    position: absolute;
+    left: 20%;
+    top: 220%;
+}
+.bodrumSnap7{
+    position: absolute;
+    right: 10%;
+    top: 265%;  
+}
+.bodrumSnap8{
+    position: absolute;
+    left: 20%;
+    top: 265%;
+    
+}

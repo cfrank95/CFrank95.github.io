@@ -1,4 +1,10 @@
-var xPositions = [10];
+function setup() {
+  createCanvas(400, 400);
+  cnv.parent('makeItRain');
+}
+
+function draw() {
+  var xPositions = [10];
 var yPositions = [0];
 
 var x1Positions = [300];
@@ -38,9 +44,10 @@ draw = function() {
     
 
     fill(75, 75, 45);
-    arc(away, difference, 100,50, 0,180);
-    arc(away + 25, difference, 50,50,-30, 0);
-    arc(away - 25, difference, 50,50,180, 209);
+    arc(away, difference, 100,50, 6,-3,OPEN);
+    /*arc(away + 25, difference, 50,50,0, -13);
+    arc(away - 25, difference, 50,50,0, 1);
+		commented out due to JS translation issues.*/
     
     if(y1Positions.length === 20){
         fill(0, 102, 255);
@@ -61,7 +68,6 @@ draw = function() {
     noStroke();                         //Clouds
     fill(99, 99, 99);
     rect(0,0,400,84);
-    stroke(0, 0, 0);
     arc(51, 71, 169, 75, 22, 162);
     arc(335, 71, 169, 75, 22, 162);
     arc(200, 71, 169, 75, 22, 162);
@@ -69,3 +75,4 @@ draw = function() {
     arc(270, 28, 76, 100, 105, 181);
     
 };
+}
