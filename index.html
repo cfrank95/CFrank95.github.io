@@ -6,39 +6,81 @@
     <title> Chris Frank Portfolio </title>
   </head>
   
-  <body>
-    <div class="container">. <!-- This is the beginning of the grid -->
+  <body background = "Background-Istanbul.jpg"  alt="Over the Bosphorus Straight in Instanbul Turkey">
+      
+      <ul class="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="more.html">More(You won't regret it)</a><li>
+      </ul>
+      <section class="links">
+        <h3> Links </h3>
+          <ul>
+            <li> <a href="ctfrank4172@eagle.fgcu.edu" target="_blank">Email</a></li>
+            <li> <a href="https://www.khanacademy.org/profile/CTFrank95/" target="_blank">Khan Profile</a></li>
+            <li> <a href="https://github.com/cfrank95" target="_blank"> My Github </a> </li>
+            <li> <a href="https://www.facebook.com/CFrank95" target="_blank"> Facebook </a> </li>
+            <li> <a href="ttps://www.instagram.com/frischrank/" target="_blank"> Instagram </a> </li> 
+          </ul>
+      </section>
       <header class="heading">
-        <h1 class="heading">Chris Frank </h1>
-        <h2 class="heading">Software Engineering Major</h2>
+        <h1>Chris Frank </h1>
+        <h2>Software Engineering Major</h2>
       </header>
+      <video class="HomeVideo" width="400" height="300" controls>
+        <source src="BodrumViews.mp4" type="video/mp4">
+        <source src="BodrumViews.ogg" type="video/ogg">
+        Your browser does not support this video.
+      </video>
+      <section class="HomeVideoAbout">
+        <h1>Bodrum, Turkey</h1>
+        <p>While I was in Turkey, I had the opporitunity to visit Bodrum.  Bodrum shares the same waters as Greece, a common tourist attraction.  The hidden gem that is Bodrum is not only beautiful, but affordable.  There are many great places throughout the country, all with their own unique qualities.</p>
+      </section>
+      <img id="DinnerPic" src="IstanbulDinner.jpeg" alt="Bugrahan(AKA Barrack), friend and myself enjoying dinner" height="300px" width="300px">
+        <section class="BusinessTurk">
+        <h2>Why Turkey?</h2>
+            <p>Like I've said, I have had the opporitunity to travel all across Europe, spent over a year in Romania alone.  Why am I so stuck on Turkey?  Well, I was travelling with a mutual business partner of Barrack's to go visit his shop in Istanbul, the capital and heart of Turkey.  As soon as I landed, the history behind every wall was apparent, and the hospitality was beyond compare.  The people I met in Turkey are more than just business partners, they have become family to me.  Now, during the summers I travel to Istanbul to work with Barrack selling exotic, handmade jewelry, handbags, and carpets.  This specific dinner took place towards the end of my last trip, we were serenaded with violins and other traditional instrument.  Video seen on <a href="more.html">More Page.</a></p>
+      </section>
       <section class="picture">
         <img id="profile" src="Profile-pic-Istanbul.jpg"  alt="Me in Istanbul during Summer 2018." height="300px" width="300px"> 
       </section>
       <section class="body2">
         <h2>About Me</h2>
-          <p> My Name is Chris Frank.  I am a freshman at FGCU.  My major is Software Engineering.  Before coming to FGCU, I spent 4 years in the Marine Corps and travelled the world.</p>
-          <p> My goal at FGCU is to learn which type of programming I would be best at.  One day, it is my goal to work for Space X and be a part of the team that sends the first humans to Mars. </p>
+          <p> My Name is Chris Frank.  I am a freshman at FGCU.  My major is Software Engineering.  Before coming to FGCU, I spent 4 years in the Marine Corps and travelled across Europe and deployed to areas throughout Africa.</p>
+          <p> My goal at FGCU is to learn as much as possible pertaining to programming.  My specific area of interest is artificial intelligence.  I have been interested in that field since I was a kid programming on a game called Roblox.  One day I would love to be on the SpaceX team that sends the first humans to Mars. </p>
       </section>
-      <section class="education">
-        <h3>Computer-Oriented education as of now:</h3>
-          <ul class="education">
-            <li> Introduction to Computer Science </li>
-            <li> Codecademy: HTML/CSS </li>
-          </ul>
-      </section>
-      <section class="links">
-        <h3> Links </h3>
-          <ul class="links">
-            <li> <a href="https://github.com/cfrank95" target="_blank"> My Github </a> </li>
-            <li> <a href="https://www.codecademy.com/cfrank95" target="_blank"> My Codecademy </a> </li>
-            <li> <a href="https://www.facebook.com/CFrank95" target="_blank"> Facebook </a>  </li>
-            <li> <a href="ttps://www.instagram.com/frischrank/" target="_blank"> Instagram </a> </li> 
-          </ul>
-      </section>
-      <section class="more-pics">
-      </section>
-    </div>  <!-- End of the grid -->
+      
+      <canvas id="canvas2" width="250" height="300"
+        style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+        <p id="paintButton"><button onclick="canvas2()">Painting</button></p>
+      <script>
+        function canvas() {
+            var c = document.getElementById("canvas2");
+            var ctx = c.getContext("2d");
+            var img = document.getElementById("ismailAcar.jpg");
+            ctx.drawImage(img,10,10);
+        }
+      </script>
+      <svg id=turkFlag xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="294.5 796.5 300 200"
+         enable-background="new 294.5 796.5 300 200" xml:space="preserve">
+      <switch>
+        <foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+            <i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+            </i:pgfRef>
+        </foreignObject>
+          <g i:extraneous="self">
+            <g>
+              <rect id="_x34_" x="294.5" y="796.5" fill="#E30A17" width="300" height="200"/>
+                <circle id="_x33_" fill="#FFFFFF" cx="400.75" cy="896.5" r="50"/>
+                <circle id="_x32_" fill="#E30A17" cx="413.25" cy="896.5" r="40"/>
+                <polygon id="_x31_" fill="#FFFFFF" points="440.334,896.5 485.559,911.195 457.608,872.723 457.608,920.276 485.559,881.805"/>
+            </g>
+          </g>
+      </switch>
+      </svg>
+      
   </body>
   
 </html>
