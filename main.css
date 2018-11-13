@@ -116,9 +116,13 @@ li a:hover:not(.active){
 #turkFlag{
     position: fixed;
     top: 5%;
-    left: 53%;
+    left: 52%;
     right: 40%;
     z-index: 3;
+    max-height: 75px;
+    max-width: 150px;
+    min-height: auto;
+    min-width: auto;
 }
 
 .education {
