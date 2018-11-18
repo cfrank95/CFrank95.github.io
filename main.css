@@ -119,10 +119,8 @@ li a:hover:not(.active){
     left: 52%;
     right: 40%;
     z-index: 3;
-    max-height: 75px;
-    max-width: 150px;
-    min-height: auto;
-    min-width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 .education {
@@ -142,7 +140,12 @@ li a:hover:not(.active){
   left: 20%;
   right: 40%;
 }
-
+.fieldReport{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    left: 20%;
+}
 #canvas1{
     position:absolute;
     right: 15%;
