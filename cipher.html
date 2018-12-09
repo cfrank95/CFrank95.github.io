@@ -14,10 +14,53 @@
           <li><a href="more.html">More(I told you)</a><li>
           <li><a class="active" href="cipher.html">Caesar Cipher</a><li>
     </ul>
-
+    
+    <!-- shares heading class with main page-->
     <header class="heading">
       <h1>Caesar Cipher</h1>
     </header>
+    
+    <h2 id="aboutCipher">Send friends encrypted code using this Caesar Cipher, they can then decrypt your message using the Decipher!</h2>
+    
+    <!-- this is beginning of cipher element of page-->
+    <section class="cipher">
+    <p>Cipher Input:</p>
+    <input id="cipherIn">
+    <button type="button" onclick="cipher()">Cipher!</button>
+    <p id="cipherOut"></p>
+    <script>
+    function cipher(){
+        
+        var cipherInVar = document.getElementById("cipherIn").value;  //Set variable equal to input.
+        var cipherOutVar = "";                                        //String Value
+        
+	    for(var i=0; i < 20;i++) {                                    //for loop
+		cipherOutVar = cipherOutVar + String.fromCharCode(cipherInVar.charCodeAt(i) - 20);
+	    }
+        document.getElementById("cipherOut").innerHTML = cipherOutVar;  //This line of code takes the variable for cipherOut and applies it to <p> element under input.
+        }
+    </script>
+    </section>
+    
+    <!-- This is where you take your encrypted message and decrypt it-->
+    <section class="decipher">
+    <p>Decipher Input:</p>
+    <input id="decipherIn">
+    <button type="button" onclick="decipher()">Decipher!</button>
+    <p id="decipherOut"></p>
+    <script>
+    function decipher(){
+        
+        var decipherInVar = document.getElementById("decipherIn").value;  //Set variable equal to input.
+        var decipherOutVar = "";                                        //String Value
+        
+	    for(var i=0; i < 20;i++) {                                    //for loop
+		decipherOutVar = decipherOutVar + String.fromCharCode(decipherInVar.charCodeAt(i) + 20);
+	    }
+        document.getElementById("decipherOut").innerHTML = decipherOutVar; //takes opposite code to apply to <p> element under decipher input.
+        }
+    </script>
+    </section>
     
   </body>
 </html>
